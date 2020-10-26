@@ -1,0 +1,4 @@
+I believe I would use a function completing the automated reports and writing(and possibly create) the files.
+
+I think whats most important here is to create a program that can read and organize the userlog. I think the best approach to this
+is creating an index system that labels date, login/logout, server, and user id into index 1, 2, 3, and 4 respectively
