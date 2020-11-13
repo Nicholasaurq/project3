@@ -28,7 +28,11 @@ Suspicious activities method actauly uses much of the code from the Irr Behave a
 Here were three problems I ran into:
 
 1. Managing the number system and the numerous for loops. A lot of thinking and reminding of where I am at in parsing or calculation was needed. I sometimes ran into issues where i used the wrong index.
+
+
 2.sortLog took up nearly the majority of time spent on the project. I originally thought this would be a quick process to make orgainzation easier. However, I found myself spending alot of time debugging and interpretting how to handle the problem. I ran into one problem that took me hours to figure out, only to find out the problem was just a mistype of a variable.
+
+
 3.Towards the end of the project, while going through my checks, I realized that, while the first few reports were correct, later on down the report, irresonible behaviors and  system glitches was only showing dates on the last day. This also, while took a while, was a simple fix. I realized that the dictionary storing the user as the key and its value being the difference of logins/logouts, it was essentially being wiped everytime a new day started. So I had to move all of my logic for irr behave and sys glitches into one of for loops. This meant that in order to print total number of cases, I needed to write everything to file, while also counting total number of cases, then have all the text equal a variable, wipe the file, then write the header, number of cases, and then rewrite all of the log info. This had to happen for both reports.
 
 This felt like a very large project, and took me 8+ hours. I personally can't help feel like there was a more effecient way of going about all of this. However after already creating much of the code and flowcharts, I didn't want to ditch everything and start over.
